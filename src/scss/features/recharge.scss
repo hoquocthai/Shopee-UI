@@ -1,0 +1,71 @@
+.recharge {
+  width: 100%;
+
+  .recharge__header {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 4%;
+    text-align: center;
+  }
+  .recharge__content,
+  .recharge__form {
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 5px #ccc;
+
+    .rechange__input-container {
+      position: relative;
+
+      span {
+        svg {
+          width: 20px;
+          height: 20px;
+
+          position: absolute;
+          right: 10px;
+          top: 50%;
+          transform: translateY(-50%);
+          vertical-align: middle;
+        }
+      }
+
+      &:hover {
+        svg {
+          right: 35px;
+        }
+      }
+    }
+
+    label {
+      font-weight: 600;
+    }
+    input {
+      height: 50px;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+
+    .recharge__submit-btn {
+      margin-top: 5px;
+      border-radius: 8px;
+      height: 50px;
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
+
+  .recharge__content {
+    text-align: center;
+    p {
+      font-size: 16px;
+      font-weight: 600;
+      span {
+        font-size: 16px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
